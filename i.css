@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+}
+/*********************************************************Navbar**************************************/
+nav{
+	width: 100%;
+	height: 65px;
+	background: #e84393;
+
+}
+/*****************Heading*******************/
+label.logo{
+	font-size: 35px;
+	color: white;
+	margin: 0 95px;
+	line-height: 80px;
+}
+nav ul{
+	float: right;
+	list-style-type: none;
+}
+nav ul li{
+            display: inline-block;
+            line-height: 80px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	text-transform: capitalize;
+	padding: 8px 20px;
+}
+nav ul li a.active,a:hover{
+	background: darkmagenta;
+}
+#checkbtn{
+	float: right;
+	line-height: 80px;
+	margin-right: 10px;
+	font-size: 30px;
+	color: white;
+    display: none;
+}
+#check{
+	display: none;
+}
+/******************************click on button then show page**************/
+#check:checked ~ ul{
+      left: 0;
+
+}
+
+
+/************************************Front page text*****************************/
+.sec1{
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("wedd.jpeg")no-repeat;
+	background-size: cover;
+	
+	height: calc(100vh - 0px);
+}
+
+.htext
+{
+	 margin-bottom: 100px;
+     position: absolute;
+
+     top: 25%;
+     left: 5%;
+     max-width: 600px;
+     color: white;
+}
+.htext h1
+{
+	font-size: 2em;
+}
+.htext h2
+{
+	font-size: 4em;
+}
+.htext span
+{
+	color: #e84393;
+}
+.htext p
+{
+
+	margin: 15px 0;
+	line-height: 2em;
+}
+.htext a
+{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	border: 1px solid white;
+	letter-spacing: 2px;
+	border-radius: 8px;
+	transition: 0.4s;
+} 
+.htext a:hover
+{
+	background: #e84393;
+}
+/***************************************************Login Form ********************************/
+      header{
+          background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(a.jpg);
+          background-size: cover;
+          position: relative;
+           width: 100vw;
+           height: 100vh;
+          }
+        /*  ::selection{
+  background:rgba(26,188,156,0.3);
+}*/
+.marq{
+	      color: white;
+	       animation: myfirst 40s;
+	   }
+
+.container{
+	
+  max-width: 440px;
+  padding:65px 20px;
+  margin: 0px auto;
+
+}
+.wrapper{
+  width: 100%;
+  background:rgba(0,0,0,.8);;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+}
+.wrapper .title{
+  height: 90px;
+  background:  rgba(0,0,0,.8);/***********form color****/
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form{
+  padding: 30px 25px 25px 25px;
+}
+.wrapper form .row{
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.wrapper form .row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid #e84393;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+form .row input:focus{
+  border-color: #e84393;;
+  box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+}
+form .row input::placeholder{
+  color: #999;
+}
+.wrapper form .row i{
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  background:#e84393;
+  border: 1px solid #16a085;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form .pass{
+  margin: -8px 0 20px 0;
+}
+.wrapper form .pass a{
+  color: #16a085;
+  font-size: 17px;
+  text-decoration: none;
+}
+.wrapper form .pass a:hover{
+  text-decoration: underline;
+}
+.wrapper form .button input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background:#e84393;
+  border: 1px solid #16a085;
+  cursor: pointer;
+}
+form .button input:hover{
+  background: #e84393;
+}
+.wrapper form .signup-link{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.wrapper form .signup-link a{
+  color: #e84393;;
+  text-decoration: none;
+}
+form .signup-link a:hover{
+  text-decoration: underline;
+}
+  
+/***************************************************Profiles  page********************************/
+
+/********************************************************about us***************************/
+
+.aboutimg1{
+     margin-left: 5px;
+     margin-right: 20px;
+	margin-bottom:150px;
+   
+}
+.aboutimg2{
+     margin-bottom:150px;
+     margin-left: 40px;
+}
+.aboutimg3{
+    margin-bottom:150px;
+    margin-left: 80px;
+}
+
+.about{
+	color: white;
+	height: 100vh;
+	text-align: center;
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('about2.jpg');
+background-size: cover;
+
+}
+.about h1{
+	padding:25px;
+/*margin-top: 10px;*/
+}
+
+/********************************************************contact***************************/
+article{
+    width: 100%;
+    height: 100vh;
+    padding-top: 85px;
+    align-items: center;
+   background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZW_WZNxpLnRSWu_IOydct59-r4gKGTT44uSTXebbdqLV_U7OcQ6VlqiO-UMrLbRmR-zg&usqp=CAU');
+   background-size: cover;
+}
+
+.contact-in{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    /*margin-top: 10%;*/
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+   /* padding-top: 30px;*/
+    
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px #666;
+}
+.contact-map{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+
+}
+.contact-map iframe{
+    width: 100%;
+    height: 100%;
+   
+
+}
+.contact-form{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    padding: 22.2px;
+    text-align: center;
+
+}
+.contact-form h1{
+    margin-bottom: 10px;
+}
+.contact-form-txt{
+    width: 100%;
+    height: 40px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+
+}
+.contact-form-txt::placeholder
+{
+    color: #aaa;
+}
+
+.contact-form-textarea{
+    width: 100%;
+    height: 90px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+
+}
+.contact-form-textarea::placeholder
+{
+    color: #aaa;
+}
+.contact-form-btn
+{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background: #e84393;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+/*/*******************footer*********************/
+footer{
+	font:bold;
+	text-align: center;
+	background:#e84393;
+	color:white;
+	margin: 0;
+	padding: 9px 20px;
+
+}
+/****************************************footer p********************************/
+
+.footer1{
+    background:lightpink;
+    padding-bottom: 1em;
+    
+}
+
+.footer1 .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap:1.0rem;
+}
+
+.footer1 .box-container .box h3{
+    font-size: 2.2rem;
+    padding:1rem 0;
+    color:var(--black);
+}
+
+.footer1 .box-container .box a{
+    display: block;
+    font-size: 1.1rem;
+    padding:1rem 0;
+    color:var(--light-color);
+}
+
+.footer1 .box-container .box a i{
+    padding-right: .5rem;
+    color:var(--black);
+}
+
+.footer1 .box-container .box a:hover i{
+    padding-right: 1rem;
+}
+
+.footer1 .credit{
+    text-align: center;
+    padding:1.5rem;
+    padding-top: 2.5rem;
+    margin-top: 2rem;
+    border-top: var(--border);
+    font-size: 2rem;
+    color:var(--black);
+}
+
+
+
+
+
+
+
+
+/***************************************************navbar media query********************************/
+@media (max-width: 801px){
+	.sec1{
+	background:url("wedd.jpeg")no-repeat;
+	background-size: cover;
+	width: 0%;
+}
+/***************Footer media query**********************/
+.footer1{
+	display: none;
+}
+article{
+        height:80%; 
+}
+
+}
+/*@media (max-width:380px){
+  .about{
+		height:90%;
+  }*/
+@media (max-width: 450px){
+	label.logo{
+		font-size: 35px;
+		color: white;
+		margin: 0 9px;
+		line-height: 80px;
+
+	}
+}
+/*@media (max-width: 552px){
+  .htext{
+  	display: none;
+  }
+
+}*/
+@media (max-width: 952px){
+	.htext{
+  	display: none;
+  }
+	#checkbtn{
+		display: block;
+	}
+	nav ul{
+		width: 100%;
+		height: 100vh;
+		background:lightpink;
+		position: fixed;
+		top: 80px;
+		left: -100%;
+		transition: .5s;
+	}
+	nav ul li{
+		display: block;
+		text-align: center;
+		line-height:55px;
+		margin: 30px;
+
+
+}
+}
+/***************************************************about us media query********************************/
+@media (max-width: 890px)
+{
+	.about{
+		height: 80%;
+	}
+	img.aboutimg1{
+	  height: 70px;
+	  padding-bottom: 10px;
+	  margin-bottom: 200px;
+		
+	}
+	img.aboutimg2{
+	  height: 70px;
+	  padding-bottom: 10px;
+	  margin-bottom: 200px;
+		
+	}
+	img.aboutimg3{
+	  height: 70px;
+	  padding-bottom: 10px;
+	  margin-bottom: 200px;
+		
+	}
+}
+
+@media (max-width: 460px)
+{
+	img.aboutimg1{
+	  height: 50px;
+	  padding-bottom: 10px;
+	  margin-bottom: 200px;
+		
+	}
+	img.aboutimg2{
+	  height: 50px;
+	  padding-bottom: 10px;
+	  margin-bottom: 200px;
+		
+	}
+	img.aboutimg3{
+	  
+	  display: none;
+	  
+	}
+	.about{
+		height: 80%;
+	}
+}
+
+@media (max-width: 600px)
+{
+	
+	
+	h2.paragraph{
+		font-size: 15px;
+
+	}
+	b.v_media{
+	font-size: 20px;
+	}
+	b.v1_media{
+		font-size: 20px;
+	}
+	p.paragraph1{
+		font-size: 15px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

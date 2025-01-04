@@ -1,0 +1,203 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profiles1</title>
+    <link rel="stylesheet" type="text/css" href="">
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+  <meta name="viewport"content="width=device-width,intial-scale=1.0">
+
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+        body{
+
+            background:url('https://png.pngtree.com/thumb_back/fw800/background/20190215/pngtree-aesthetic-lavender-background-design-image_2358.jpg');
+                    background-size: cover;
+            /*background-color: antiquewhite;*/
+
+        }
+     /*********************************************************Navbar**************************************/
+nav{
+    width: 100%;
+    height: 65px;
+    background: #e84393;
+    
+}
+/*****************Heading*******************/
+label.logo{
+    font-size: 35px;
+    color: white;
+    margin: 0 95px;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    list-style-type: none;
+}
+nav ul li{
+            display: inline-block;
+            line-height: 70px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 8px 20px;
+}
+nav ul li a.active,a:hover{
+    background: darkmagenta;
+}
+#checkbtn{
+    float: right;
+    line-height: 80px;
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+#check{
+    display: none;
+}
+/******************************click on button then show page**************/
+#check:checked ~ ul{
+      left: 0;
+
+}
+
+
+
+
+        .container{
+            padding-left:14em;
+            padding-right:10em;
+            padding-top:20px
+        }
+        .card {
+        	border: solid;
+        	border-color:white;
+        	border-radius: 12px;
+            margin: 15px;
+            justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  display:inline-block;
+}
+.headp{
+color: white;
+margin-top:10px ;
+font-size: 20px;
+font-family: sans-serif;
+text-align: center;
+}
+footer{
+    font:bold;
+    text-align: center;
+    /*background:#e84393;*/
+    color:white;
+    margin: 0;
+    padding: 9px 150px;
+
+}
+@media (max-width: 450px){
+    label.logo{
+        font-size: 35px;
+        color: white;
+        margin: 0 9px;
+        line-height: 80px;
+
+    }
+}
+/*@media (max-width: 552px){
+  .htext{
+    display: none;
+  }
+
+}*/
+@media (max-width: 952px){
+
+       
+
+  /*  nav ul{
+        width: 100%;
+        height: 100vh;
+        background:lightpink;
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        transition: .5s;
+    }
+   /* nav ul li{
+        display: block;
+        text-align: center;
+        line-height:55px;
+        margin: 30px;
+
+
+}*/
+}
+</style>
+
+</head>
+<body>
+	
+       <nav class="navbar1">
+        <input type="checkbox" id="check"name="" value="">
+        <label for="check" id="checkbtn"><i class="fa fa-bars"></i></label>
+        <label class="logo">
+        <i class="fa-solid fa-gift" style="color:white;"></i>
+      Magic Fix</label>
+        <ul>
+            <li><a class="active" href="index.html#">Home</a></li>
+            <li><a href="index.html#loginform">Login</a></li>
+            <li><a href="profiles_BG.html">Profiles</a></li>
+            <li><a href="index.html#abo">About Us</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+
+
+        </ul>
+    </nav>
+        <header class="headp"><h1>Profiles</h1></header>
+    <div class="container">
+        <div class="card">
+
+        	<a href="bride_gallery.html">
+            <img src="https://i.pinimg.com/236x/bb/a8/6f/bba86f9778fabcbad3135d80d66c2d21.jpg" alt="bride_image" style="width: 400px;
+                    height: 440px;">
+             </a>
+
+            <h1 style="color:white;">Brides</h1>
+          </div>
+          <div class="card">
+
+          	  <a href="groom_gallery.html">
+            <img src="https://i.pinimg.com/474x/42/9e/c3/429ec326cc615d20765518dc7152614a.jpg" alt="groom_image" style="width: 400px;
+                    height: 440px;">
+                </a>
+
+            <h1 style="color:white;" >Grooms</h1>
+          </div>
+    </div>
+    <footer style="">
+      <div class="center">
+        Created By <b style="color: #e84393;">@Rutuja Patankar................!</b>
+        </div>
+
+</footer>
+</body>
+</html>
